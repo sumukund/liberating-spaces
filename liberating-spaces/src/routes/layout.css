@@ -3,5 +3,5 @@
 @plugin '@tailwindcss/typography';
 
 @theme {
-    --color-brand-primary: #316ff6;
+    --color-brand-primary: #1E3A8A;
 }
