@@ -4,9 +4,10 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  optimizeDeps: {
-    exclude: ['maplibre-gl']
-  },
+	base: 'https://github.com/sumukund/liberating-spaces', // Replace with your exact GitHub repository name
+	optimizeDeps: {
+		exclude: ['maplibre-gl']
+	},
 	plugins: [
 		tailwindcss(),
 		sveltekit({
